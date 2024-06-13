@@ -41,3 +41,32 @@
     background-color: #c4fcef;
     border-color: #c4fcef;
 }
+.moneygreen {
+    background-color: #00b01d;
+    border-color: #00b01d;
+}
+.empty {
+    padding: 24px 80px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.libertyblue2 {
+    padding: 23px ; 
+    background-color: #c4fcef;
+    border-color: #c4fcef;
+}
+.empty2{
+    padding: 24px 50px;
+    background-color: #845ec2;
+    border-color: #845ec2;
+}
+.peachfruit2 {
+    padding: 24px 20px 80px;
+    background-color: #ff9671;
+    border-color: #ff9671;
+}
+.libertyblue3 {
+    padding: 24px 20px 80px;
+    background-color: #c4fcef;
+    border-color: #c4fcef;
+}
