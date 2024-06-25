@@ -9,38 +9,21 @@ body {
 #three-column{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 24px 24px 48px
+    padding: 12px 60px 24px
+    
 }
-
-
-#sidebar {
-   
-    padding: 24px;
-    width: 250px;
-    border-right: 0.5px solid purple;
-}
-
-#sidebar h2 {
-    border-bottom: 0.5px soolid purple;
-    padding-bottom: 10px;
+.together {
+    margin: 0px 24px;
 }
 
 #sidebar ul {
     list-style-type: none;
     padding: 0px;
-    a {
-        color: #111;
-        text-decoration: none;
-    }
-    li {
-        padding: 4px 0px;
-    }
+
 }
 
 #main {
-    
     padding: 24px 8px;
-    
 }
 
 
@@ -48,17 +31,21 @@ img {
     width: 500px;
     height: 300px;
     border-radius: 20px;
-    border: solid black;
+    border: 0px solid black;
 }
 
+#sidebar {
+    margin: 24px 0px 0px 24px;
+    padding: 0px 24px 0px 24px;
+}
 
 
 
 #sidebar img {
     width: 200px;
     height: 150px;
-    border-radius: 20px;
-    border: solid black;
+    border-radius: 8px;
+    border: 0px solid black;
 }
 
 .buttons #button1 {
@@ -89,8 +76,31 @@ img {
     margin: 24px;
 }
 
+#sidebarcheck .price{
+    opacity: .5;
+}
+
+#sidebarcheck .discount{
+    color: red;
+}
+
 #navbar {
+    padding: 0px 25px;
     background-color: blueviolet;
     text-align: center;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #search {
+        margin-left: auto;
+    }
+} 
+
+
+
+
+.together {
+    text-align: center;
 }
+
