@@ -60,25 +60,16 @@
     }
 } 
 
-.pokemon-header .health {
-    display: flex;
-    align-items: center;
-    justify-content: right;
+img {
+    border: solid goldenrod 8px;
 }
 
-.pokemon-header .name {
+#pokemon-card-1, #pokemon-card-2 {
+    background: linear-gradient(-25deg, lightgreen, green, lightgreen)
 }
-
-#pokemon-card-1 {
-    background-color: green;
+#pokemon-card-3 {
+    background: linear-gradient(-25deg, orange, orangered, orange);
 }
-
-#pokemon-card-1 img {
-    border: 8px solid goldenrod;
-    margin: 0px auto 5px;
-    width: 280px;
-}
-
-.details {
-    background-color: yellow;
+#pokemon-card-4 {
+    background: linear-gradient(-25deg, skyblue, aquamarine, skyblue);
 }
