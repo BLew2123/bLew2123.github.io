@@ -11,8 +11,17 @@
     background-color: white;
     padding: 24px;
     border-radius: 18px;
-    display: block;
     width: 350px;
+    margin: 24px;
+    
+     .animagram-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    
 
 }
 
@@ -20,10 +29,31 @@
     border-radius: 50%;
     width: 200px;
     align-items: center;
+    
 }
 
 .animagram-footer {
-    text-align: center;
     font-size: 24px;
-    
+    display: flex;
+    justify-content: space-between;
 }
+
+.card-style-2  p {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.card-style-2 .animagram-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+}
+
