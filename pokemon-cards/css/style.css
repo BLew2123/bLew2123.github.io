@@ -1,0 +1,84 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-3 {
+    margin: 18px ;
+    padding: 16px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 18px;
+    border: 16px solid gold;
+    .pokemon-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+            font-size: 25px;
+            margin: 20px 17px 0px;
+        }
+        div {
+            font-size: 18px;
+            margin: 20px 18px 0px;
+        }
+    }
+    
+    .attck {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        margin: auto 17px auto;
+        border-bottom: 2px solid black;
+        padding: 20px 0px;
+        span {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .description {
+            padding: 0px 5px;
+            justify-content: space-between;
+        }
+        .power {
+            font-size: 27px;
+            font-weight: bold;
+        }
+    }
+    .data {
+        border: 2px solid goldenrod;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px 10px;
+        margin: 10px 17px 20px;
+    }
+} 
+
+.pokemon-header .health {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.pokemon-header .name {
+}
+
+#pokemon-card-1 {
+    background-color: green;
+}
+
+#pokemon-card-1 img {
+    border: 8px solid goldenrod;
+    margin: 0px auto 5px;
+    width: 280px;
+}
+
+.details {
+    background-color: yellow;
+}
