@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 8px;
+    font-family: sans-serif;
+    
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.hero {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: auto;
+    margin: auto;
+    img {
+        width: 100%;
+        height: 100%;
+        border: solid white 10px;
+    }
+}
+
+#hero-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2px;
+    border: 10px solid black;
+    img {
+        width: 100%;
+   
+        border: solid white 10px;
+    }
+
+}
