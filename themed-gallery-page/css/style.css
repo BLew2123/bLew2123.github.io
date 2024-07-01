@@ -8,6 +8,10 @@ body {
     
 }
 
+#hero-pics {
+    background-image: url;
+}
+
 #layout {
     max-width: 800px;
     margin: 48px auto;
@@ -30,11 +34,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 2px;
-    border: 10px solid black;
     img {
         width: 100%;
-   
-        border: solid white 10px;
+        border-radius: 10px;
     }
 
 }
