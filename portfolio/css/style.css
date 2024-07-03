@@ -1,0 +1,63 @@
+#hero-4 {
+    background-image: url(../images/portfolio-background-img.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+    
+    
+}
+
+body {
+    margin: 0px;
+    
+}
+
+#hero-4 .name h1 {
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: goldenrod;
+}
+
+#hero-4 a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+#hero-5 {
+    background-image: url(../images/portfolio-background-img-gld.jpg);
+    height: 50vh;
+    img {
+        height: 40vh;
+        padding-left: 30px;
+        border: solid white 5px;
+        border-radius: 20px;
+    }
+}
+
+#hero-5 h2 {
+    display: inline-block;
+    display: flex;
+    justify-content:center;
+   
+}
+
+#hero-5 h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#spacer {
+    background-color: blue;
+    height: 50vh;
+}
