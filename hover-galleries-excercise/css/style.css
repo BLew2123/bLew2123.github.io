@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.card-contain {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 25px;
+    margin: 25px auto;
+    width: 90vw;
+    max-width: 1200px;
+    border-bottom: 0.5px solid ;
+    
+}
+
+.card {
+    flex: 300px;
+    border: solid black 5px;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 12px;
+        margin-top: 36px;
+        border: 3x solid black;
+        background-color: lightseagreen;
+        border-radius: 12px;
+        text-align: center;
+    }
+}
+
+#card-1:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 4px 4px 4px red;
+    a {
+        background-color: white;
+    }   
+}
+
+#card-1 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s
+
+    ;
+}
+
+.btn {
+    display: block;
+    color: black;
+    transition: box-shadow 0.5s;
+    text-decoration: none;
+    border: 3px black solid;
+    border-radius: 12px;
+    padding: 5px;
+    &:hover {
+        box-shadow: 
+        0px 0px 30px #ff059f,
+        ;
+    }
+}
+
+#card-2 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s
+
+    ;
+}
+
+#card-2:hover {
+    background-color: tan;
+    color: white;
+    box-shadow: 4px 4px 4px purple;
+    a {
+        background-color: white;
+    }   
+
+}
+
+#card-3{
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s
+
+    ;
+}
+
+#card-3:hover {
+    background-color: pink;
+    color: black;
+    box-shadow: 4px 4px 4px green;
+    a {
+        background-color: white;
+    }   
+
+}
+
+#card-4{
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s
+
+    ;
+}
+
+#card-4:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 4px 4px 4px goldenrod;
+    a {
+        background-color: white;
+    }   
+
+}
+
+#card-5{
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 2s
+
+    ;
+}
+
+#card-5:hover {
+    background-color: purple;
+    color: white;
+    transform: rotate(360deg);
+    a {
+        background-color: white;
+    }   
+
+}
+
+#card-6{
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 2s
+
+    ;
+}
+
+#card-6:hover {
+    background-color: red;
+    color: white;
+    transform: rotate(360deg);
+    a {
+        background-color: white;
+    }   
+
+}
+
+#card-7{
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 2s
+
+    ;
+}
+
+#card-7:hover {
+    background-color: tan;
+    color: white;
+    transform: rotate(360deg);
+    a {
+        background-color: white;
+    }   
+
+}
+
+#card-8{
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 2s
+
+    ;
+}
+
+#card-8:hover {
+    background-color: gold;
+    color: white;
+    transform: rotate(360deg);
+    a {
+        background-color: white;
+    }   
+
+}
+
+#card-9  {
+    opacity: 1;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 2s
+    ;
+}
+
+#card-9:hover  {
+    background-color: aquamarine;
+    opacity: 1;
+    transform: translateY(0px);
+    a {
+        background-color: white;
+    }
+}
+
+#card-10 {
+    opacity: 1;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 2s
+    ;
+}
+
+#card-10:hover  {
+    background-color: yellow;
+    opacity: 1;
+    transform: translateY(0px);
+    a {
+        background-color: white;
+    }
+}
+
+#card-11 {
+    opacity: 1;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 2s
+    ;
+}
+
+#card-11:hover  {
+    background-color: pink;
+    opacity: 1;
+    transform: translateY(0px);
+    a {
+        background-color: white;
+    }
+}
+
+#card-12 {
+    opacity: 1;
+    transform: translateY(-8px);
+    transition: 
+        opacity 2s,
+        visibility 2s,
+        transform 2s
+    ;
+}
+
+#card-12:hover  {
+    background-color: green;
+    opacity: 1;
+    transform: translateY(0px);
+    a {
+        background-color: white;
+    }
+}
