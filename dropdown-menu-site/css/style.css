@@ -60,13 +60,18 @@ body{
 }
 
 #hero-1 {
-    background-image:url(../images/family-dog.jpg);
-    height: 50vh;
+    background-image:url(../images/pawprint.webp);
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#hero-1 img {
+    width: 100%;
+
 }
 
 
@@ -83,8 +88,10 @@ body{
     
 }
 
-#hero-1
-
-img{
-    width: 100%;
+.pet-print img {
+    width: 100vw;
+    height: 100vh;
 }
+
+
+
