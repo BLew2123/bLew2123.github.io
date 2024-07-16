@@ -36,26 +36,27 @@ body {
 }
 
 #hero-1 {
-    background-image: url(../images/food.jpg);
-    height: 500px;
+    background-image: url(../images/hammy.jpg);
+    height: 50vh;
     width: auto;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     
 }
 
 #navbar img {
     width: 70px;
-    padding-left: 10px;
+    padding-left: 15px;
 
 }
 
 #hero-1 {
-    font-size: 25px;
+    font-size: 45px;
     color: white;
-    padding-left: 34vw;
+    padding-left: 3vw;
 }
 
 #hero-1 a {
@@ -65,7 +66,120 @@ body {
     color: white;
     text-decoration: none;
     padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
+    margin: 5vh ;
     display: flex;
-    flex-direction: column;
+    border-radius: 12px;
+    border: #00870e;
+    
+    &:hover {
+        background-color: transparent;
+        color: #00870e;
+        border: #00870e solid;
+        
+    }
+    
 }
+
+
+
+#breaker {
+    background-color: #00870e;
+    color: white;
+    padding-left: 24px;
+    padding: 1%;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+    .card {
+        flex: 1;
+    }
+
+}
+
+.card {
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(-50deg, #00870e, #fff7f7, #00870e);
+
+
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.card .btn {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    
+    border-radius: 8px;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+    &:hover {
+        background-color: transparent;
+       
+        color: tan;
+    }
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+    object-position: bottom;
+    
+}
+
+#bkcolor {
+    background-color: tan;
+    width: auto;
+}
+
+.simple {
+    display: flex;
+    padding: 24px;
+    img {
+        width: 100%;
+    }
+}
+
+#hero-2 {
+    background-image: url(../images/leaves.jpg);
+    height: 100vh;
+    opacity: 0.5;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+
