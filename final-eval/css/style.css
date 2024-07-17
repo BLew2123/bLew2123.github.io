@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/superbowl.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0.5;
+}
+
+#navbar {
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 0px 24px;
+}
+
+
+
+
+
+
+#two-column{
+    display: flex;
+}
+
+#sidebar img{
+    
+    padding: 24px;
+    width: 50vw;
+    border-right: 0.5px solid purple;
+}
+
+#sidebar h2 {
+    border-bottom: 0.5px soolid purple;
+    padding-bottom: 10px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0px;
+    a {
+        color: #111;
+        text-decoration: none;
+    }
+    li {
+        padding: 4px 0px;
+    }
+}
+
+#main img {
+    padding: 24px;
+    width: 50vw;
+    border-right: 0.5px solid purple;
+}
+
+#navbar .drop-contain h2 {
+    text-align: center;
+    display: flex;
+}
